@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not working on mobile",
+    "description": "Users on iOS 17 cannot tap the login button",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 1,
+    "created_at": "2026-03-23T17:29:31.911989"
+  },
+  {
+    "id": 2,
+    "title": "Status filter not working on issue option",
+    "description": "Not getting required result after selecting open status",
+    "status": "open",
+    "priority": "high",
+    "reporter_id": 2,
+    "created_at": "2026-03-23T17:32:14.159471"
+  },
+  {
+    "id": 3,
+    "title": "Spell Incorrect",
+    "description": "Required spell not correct in field",
+    "status": "open",
+    "priority": "medium",
+    "reporter_id": 2,
+    "created_at": "2026-03-23T17:34:48.343294"
+  },
+  {
+    "id": 4,
+    "title": "Spell Incorrect",
+    "description": "Required spell not correct in field",
+    "status": "in_progress",
+    "priority": "medium",
+    "reporter_id": 2,
+    "created_at": "2026-03-23T17:50:20.236727"
+  }
+]
