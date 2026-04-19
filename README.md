@@ -1,8 +1,18 @@
 # DevTrack
 
-A lightweight issue tracking API built with Django and Django REST Framework-style function-based endpoints.
+DevTrack is a lightweight issue tracking backend built with Django.
 
-## How To Run The Project
+It is designed as a stripped-down GitHub Issues style API where engineers can:
+
+- report bugs
+- assign priorities
+- update statuses
+- track issues across teams
+
+The project uses function-based API endpoints and stores records in JSON files.
+
+
+## How to Run the Project
 
 ### 1. Create and activate virtual environment
 
@@ -37,7 +47,7 @@ Base path:
 /api/
 ```
 
-### Reporter endpoints
+### Reporter Endpoints
 
 #### `POST /api/reporters/`
 Create a new reporter.
@@ -66,7 +76,7 @@ Get a single reporter by ID.
 
 ---
 
-### Issue endpoints
+### Issue Endpoints
 
 #### `POST /api/issues/`
 Create a new issue.
@@ -89,6 +99,7 @@ Request body example:
 #### `GET /api/issues/`
 Get all issues.
 ![GET all issues](image-1.png)
+
 #### `GET /api/issues/?id=1`
 Get a single issue by ID.
 ![Get by ID](image-2.png)
@@ -104,7 +115,7 @@ This project stores data in JSON files in the project root:
 - `reporters.json`
 - `issues.json`
 
-## Design Decision
+## Design Decisions
 
 ### Decision: Use shared `_load_records` and `_save_records` helper functions
 
